@@ -12,3 +12,4 @@ console.log(mage);
 
 import * as ARCHER from "./module/archer.js";
 let archer = new ARCHER.Archer('', 0, 0)
+console.log(archer);
