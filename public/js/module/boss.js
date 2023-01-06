@@ -7,7 +7,7 @@ export class Boss{
     Enigme(){
         if (boss.PointsDeVie = 20) {
             for (var i = 0; i <= 3; i++) { // je lance la boucle, où i <= au nombre d'essai voulu
-                var essai = Number(prompt("Entrez un nombre entre 1 et 100 pour deviner le nombre aléatoire."));
+                var essai = String(prompt("Entrez un nombre entre 1 et 100 pour deviner le nombre aléatoire."));
                 if (essai === solution) {
                     console.log("Vous avez trouvé, bravo !");
                     console.log("Vous avez trouvé en " + i + " essai(s)")
